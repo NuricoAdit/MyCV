@@ -1,0 +1,120 @@
+@media(min-width:670px) and (max-width:1024px){
+    .photo_name{
+        width: 70%;
+        margin: 0 auto;
+        align-items: center;
+        float: none;
+    }
+    .photo_name img{
+        width: 250px;
+        height: 250px;
+        float: none;
+        display: flex;
+        margin: 20px auto;
+    }
+    .photo_name h1{
+        float: none;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .flex_box{
+        flex-wrap: wrap;
+    }
+    .flex_box li{
+        width: 50%;
+    }
+    .flex_box p{
+        text-align: center;
+    }
+    .container{
+        width: 70%;
+    }
+}
+
+@media(min-width:320px) and (max-width:670px){
+    .photo_name{
+        width: 100%;
+        margin: 0;
+    }
+    .photo_name img{
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+        display: block;
+        float: none;
+    }
+    .photo_name h1{
+        text-align: center;
+        padding: 0px;
+    }
+    .flex_box{
+        flex-wrap: wrap;
+        margin: 0px;
+        padding: 0;
+        text-align: center;
+    }
+    .flex_box li{
+        width: 100%;
+        padding: 10px 30px;
+    }
+    .footer {
+        height: auto;
+    }
+    .listfooter ul{
+        float: left;
+        margin-left: 0px;
+        padding-inline-start: 0px;
+    }
+    .educations{
+        float: left;
+        width: 100%;
+        padding: 20px;
+        border-style: none;
+    }
+    .experience {
+        float: left;
+        width: 100%;
+        padding: 20px;
+        border-style: none;
+    }
+    .education{
+        margin-top: 10px;
+    }
+    .edu h4{
+        float: left;
+        text-align: left;
+        margin: 9px;
+    }
+    .edu p{
+        float: left;
+        text-align: left;
+        margin: 9px;
+    }
+    .educations h3{
+        float: left;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+        background-color: aquamarine;
+    }
+    .experience h3{
+        float: left;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+        background-color: aquamarine;
+    }
+    .experience h4{
+        float: left;
+        text-align: left;
+        margin: 9px;
+    }
+    .experience p{
+        float: left;
+        text-align: left;
+        margin: 9px;
+    }
+}
